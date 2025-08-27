@@ -5,7 +5,7 @@
 
 #Navigate to pom.xml directory. Eg. as below.
 
-		cd C:\ws\sboot\lab053
+		cd C:\ws\sboot\lab054
 
 
 #build the project
@@ -31,7 +31,7 @@
 		docker build -t hworld:latest .
 
 
-		PS C:\ws\sboot\lab053> docker build -t hworld:latest .
+		PS C:\ws\sboot\lab054> docker build -t hworld:latest .
 		[+] Building 6.1s (9/9) FINISHED                                                                                                                            docker:desktop-linux
 		 => [internal] load build definition from Dockerfile                                                                                                                        0.0s
 		 => => transferring dockerfile: 242B                                                                                                                                        0.0s
@@ -59,7 +59,7 @@
 		docker images
 
 
-		PS C:\ws\sboot\lab053> docker images
+		PS C:\ws\sboot\lab054> docker images
 		REPOSITORY                                      TAG                                                                           IMAGE ID       CREATED              SIZE
 		hworld                                          latest                                                                        68bed9888e78   About a minute ago   758MB
 		curlimages/curl                                 latest                                                                        4026b29997dc   5 weeks ago          9.85MB
@@ -74,7 +74,7 @@
 		docker run -p 8080:8080 hworld:latest
 
 
-		PS C:\ws\sboot\lab053> docker run -p 8080:8080 hworld:latest
+		PS C:\ws\sboot\lab054> docker run -p 8080:8080 hworld:latest
 
 
 
