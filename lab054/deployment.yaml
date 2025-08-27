@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hworld
-          image: nerdysrisha/hworld:latest
+          image: nerdysrisha/hworld054:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
