@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/lab038-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab039-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab040-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab040-shopping/springcloud-apigw/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab041-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab041-shopping/springcloud-apigw/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab042-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab042-shopping/gateway-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab043-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab043-shopping/gateway-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab044-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab044-shopping/gateway-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045-shopping/gateway-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045-shopping/notifications-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045a-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045a-shopping/gateway-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045a-shopping/notifications-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045b-shopping/discovery-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045b-shopping/gateway-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/lab045b-shopping/notifications-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hworld-web" />
+        <module name="security-custom-creds" />
+        <module name="security-jwt-login-staticjwt-w-jwtsvc" />
+        <module name="security-disable-csrf" />
+        <module name="security-kc-global-ex-handler" />
+        <module name="di" />
+        <module name="jpa-search-with-jpql" />
+        <module name="security-with-keycloak" />
+        <module name="interceptor" />
+        <module name="jpa-cmd-runner-curl-fire-CORS" />
+        <module name="hworld-docker" />
+        <module name="jpa-search-with-jpaspecification" />
+        <module name="di2" />
+        <module name="security-jwt-nobasicauth-entry-logs" />
+        <module name="di1" />
+        <module name="hworld" />
+        <module name="security-user-principal-bcrypt" />
+        <module name="security-user-principal-dbdriven" />
+        <module name="security-principal-jwt-login-hcoded" />
+        <module name="security-with-jwt-disable-basic-auth" />
+        <module name="web-mvc2" />
+        <module name="web-mvc1" />
+        <module name="payments-interface-aop-pointcut" />
+        <module name="security-default-creds" />
+        <module name="security-w-kc-failure-conn-ex" />
+        <module name="security-user-principal-hdcoded-inmem" />
+        <module name="security-jwt-login-dyna-jget-jwt" />
+        <module name="hworld2" />
+        <module name="jpa-insert-data-onstart" />
+        <module name="security-jwt-nobasicauth" />
+        <module name="hworld-docker-small-image" />
+        <module name="jpa-insert-image-onstart" />
+        <module name="security-jwt-login-static-resp-wo-jwtsvc" />
+        <module name="hw-dhub-kind" />
+        <module name="payments-interface" />
+        <module name="payments-interface-aop" />
+        <module name="security-with-keycloak-failure-resp" />
+        <module name="payments-aop-pointcut-around" />
+        <module name="security-csrf" />
+        <module name="hworld-docker-observablity" />
+        <module name="di-autowire" />
+        <module name="spring-sec-user-principal-h2db" />
+        <module name="jpa-addl-update-apis" />
+        <module name="web-mvc" />
+        <module name="jpa-image-add-retrieve" />
+        <module name="security-jwt-login-verify-jwt" />
+        <module name="jpa-transaction-read-uncommitted" />
+        <module name="hworlddockerhub" />
+      </profile>
+      <profile name="Annotation profile for Archetype - lab045a-shopping" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="discovery-service5" />
+        <module name="order-service5" />
+        <module name="inventory-service5" />
+        <module name="order-service4" />
+        <module name="inventory-service4" />
+        <module name="order-service3" />
+        <module name="discovery-service" />
+        <module name="springcloud-mdb-products-store" />
+        <module name="order-service2" />
+        <module name="products-service" />
+        <module name="inventory-service3" />
+        <module name="inventory-service" />
+        <module name="inventory-service2" />
+        <module name="products-service4" />
+        <module name="products-service5" />
+        <module name="products-service2" />
+        <module name="products-service3" />
+        <module name="order-service" />
+      </profile>
+      <profile name="Annotation profile for Archetype - lab045-shopping" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="products-service-gw-kc-cb-delay" />
+        <module name="gateway-service-tracing" />
+        <module name="order-service (5)" />
+        <module name="springcloud-mongodb-superlight" />
+        <module name="order-service (1)" />
+        <module name="order-service-spcl-gw" />
+        <module name="notifications-service" />
+        <module name="products-service (4)" />
+        <module name="order-service-tracing" />
+        <module name="inventory-service (5)" />
+        <module name="discovery-service-spcl-gw-kc-cb" />
+        <module name="inventory-service-kafka" />
+        <module name="inventory-service (1)" />
+        <module name="springcloud-apigw" />
+        <module name="products-service-tracing" />
+        <module name="springcloud-apigw-kc" />
+        <module name="order-service-kafka" />
+        <module name="inventory-service-spcl-gw-kc" />
+        <module name="discovery-service-spcl-gw" />
+        <module name="order-service (2)" />
+        <module name="products-service (5)" />
+        <module name="products-service-kafka" />
+        <module name="order-service-spcl-gw-kc-cb" />
+        <module name="products-service (1)" />
+        <module name="inventory-service (4)" />
+        <module name="discovery-service (2)" />
+        <module name="products-service-spcl-gw" />
+        <module name="inventory-service-spcl-gw" />
+        <module name="products-service-spcl-gw-kc-cb" />
+        <module name="gateway-service-kafka" />
+        <module name="springcloud-apigw-kc-cb" />
+        <module name="order-service (3)" />
+        <module name="discovery-service-spcl-gw-kc" />
+        <module name="products-service (2)" />
+        <module name="discovery-service (1)" />
+        <module name="inventory-service-tracing" />
+        <module name="inventory-service (3)" />
+        <module name="inventory-service-spcl-gw-kc-cb" />
+        <module name="discovery-service-gw-kc-cb-delay" />
+        <module name="order-service-gw-kc-cb-delay" />
+        <module name="springcoud-mdb-products-store" />
+        <module name="inventory-service-gw-kc-cb-delay" />
+        <module name="order-service (4)" />
+        <module name="products-service-spcl-gw-kc" />
+        <module name="springcoud-mdb-products-intg-tests" />
+        <module name="discovery-service-tracing" />
+        <module name="products-service (3)" />
+        <module name="discovery-service-kafka" />
+        <module name="inventory-service (2)" />
+        <module name="order-service-spcl-gw-kc" />
+        <module name="springcloud-gw-kc-cb-delay" />
+      </profile>
+      <profile name="Annotation profile for discovery-service-observability" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="discovery-service-observability" />
+      </profile>
+      <profile name="Annotation profile for gateway-service-observability" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="gateway-service-observability" />
+      </profile>
+      <profile name="Annotation profile for inventory-service-observability" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="inventory-service-observability" />
+      </profile>
+      <profile name="Annotation profile for notifications-service-observability" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="notifications-service-observability" />
+      </profile>
+      <profile name="Annotation profile for order-service-observability" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="order-service-observability" />
+      </profile>
+      <profile name="Annotation profile for products-service-observability" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="products-service-observability" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discovery-service6" target="17" />
+      <module name="hworld-docker-distroless" target="17" />
+      <module name="inventory-service6" target="17" />
+      <module name="lab001-DI" target="17" />
+      <module name="order-service6" target="17" />
+      <module name="products-service6" target="17" />
+      <module name="shopping-eureka-apigw" target="17" />
+      <module name="springcoud-mdb-products-testcases" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="di" options="-parameters" />
+      <module name="di-autowire" options="-parameters" />
+      <module name="di1" options="-parameters" />
+      <module name="di2" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="discovery-service (1)" options="-parameters" />
+      <module name="discovery-service (2)" options="-parameters" />
+      <module name="discovery-service-gw-kc-cb-delay" options="-parameters" />
+      <module name="discovery-service-kafka" options="-parameters" />
+      <module name="discovery-service-observability" options="-parameters" />
+      <module name="discovery-service-spcl-gw" options="-parameters" />
+      <module name="discovery-service-spcl-gw-kc" options="-parameters" />
+      <module name="discovery-service-spcl-gw-kc-cb" options="-parameters" />
+      <module name="discovery-service-tracing" options="-parameters" />
+      <module name="discovery-service5" options="-parameters" />
+      <module name="discovery-service6" options="-parameters" />
+      <module name="gateway-service-kafka" options="-parameters" />
+      <module name="gateway-service-observability" options="-parameters" />
+      <module name="gateway-service-tracing" options="-parameters" />
+      <module name="hw-dhub-kind" options="-parameters" />
+      <module name="hworld" options="-parameters" />
+      <module name="hworld-docker" options="-parameters" />
+      <module name="hworld-docker-distroless" options="-parameters" />
+      <module name="hworld-docker-observablity" options="-parameters" />
+      <module name="hworld-docker-small-image" options="-parameters" />
+      <module name="hworld-web" options="-parameters" />
+      <module name="hworld2" options="-parameters" />
+      <module name="hworlddockerhub" options="-parameters" />
+      <module name="interceptor" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
+      <module name="inventory-service (1)" options="-parameters" />
+      <module name="inventory-service (2)" options="-parameters" />
+      <module name="inventory-service (3)" options="-parameters" />
+      <module name="inventory-service (4)" options="-parameters" />
+      <module name="inventory-service (5)" options="-parameters" />
+      <module name="inventory-service-gw-kc-cb-delay" options="-parameters" />
+      <module name="inventory-service-kafka" options="-parameters" />
+      <module name="inventory-service-observability" options="-parameters" />
+      <module name="inventory-service-spcl-gw" options="-parameters" />
+      <module name="inventory-service-spcl-gw-kc" options="-parameters" />
+      <module name="inventory-service-spcl-gw-kc-cb" options="-parameters" />
+      <module name="inventory-service-tracing" options="-parameters" />
+      <module name="inventory-service2" options="-parameters" />
+      <module name="inventory-service3" options="-parameters" />
+      <module name="inventory-service4" options="-parameters" />
+      <module name="inventory-service5" options="-parameters" />
+      <module name="inventory-service6" options="-parameters" />
+      <module name="jpa-addl-update-apis" options="-parameters" />
+      <module name="jpa-cmd-runner-curl-fire-CORS" options="-parameters" />
+      <module name="jpa-image-add-retrieve" options="-parameters" />
+      <module name="jpa-insert-data-onstart" options="-parameters" />
+      <module name="jpa-insert-image-onstart" options="-parameters" />
+      <module name="jpa-search-with-jpaspecification" options="-parameters" />
+      <module name="jpa-search-with-jpql" options="-parameters" />
+      <module name="jpa-transaction-read-uncommitted" options="-parameters" />
+      <module name="lab001-DI" options="-parameters" />
+      <module name="notifications-service" options="-parameters" />
+      <module name="notifications-service-observability" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="order-service (1)" options="-parameters" />
+      <module name="order-service (2)" options="-parameters" />
+      <module name="order-service (3)" options="-parameters" />
+      <module name="order-service (4)" options="-parameters" />
+      <module name="order-service (5)" options="-parameters" />
+      <module name="order-service-gw-kc-cb-delay" options="-parameters" />
+      <module name="order-service-kafka" options="-parameters" />
+      <module name="order-service-observability" options="-parameters" />
+      <module name="order-service-spcl-gw" options="-parameters" />
+      <module name="order-service-spcl-gw-kc" options="-parameters" />
+      <module name="order-service-spcl-gw-kc-cb" options="-parameters" />
+      <module name="order-service-tracing" options="-parameters" />
+      <module name="order-service2" options="-parameters" />
+      <module name="order-service3" options="-parameters" />
+      <module name="order-service4" options="-parameters" />
+      <module name="order-service5" options="-parameters" />
+      <module name="order-service6" options="-parameters" />
+      <module name="payments-aop-pointcut-around" options="-parameters" />
+      <module name="payments-interface" options="-parameters" />
+      <module name="payments-interface-aop" options="-parameters" />
+      <module name="payments-interface-aop-pointcut" options="-parameters" />
+      <module name="products-service" options="-parameters" />
+      <module name="products-service (1)" options="-parameters" />
+      <module name="products-service (2)" options="-parameters" />
+      <module name="products-service (3)" options="-parameters" />
+      <module name="products-service (4)" options="-parameters" />
+      <module name="products-service (5)" options="-parameters" />
+      <module name="products-service-gw-kc-cb-delay" options="-parameters" />
+      <module name="products-service-kafka" options="-parameters" />
+      <module name="products-service-observability" options="-parameters" />
+      <module name="products-service-spcl-gw" options="-parameters" />
+      <module name="products-service-spcl-gw-kc" options="-parameters" />
+      <module name="products-service-spcl-gw-kc-cb" options="-parameters" />
+      <module name="products-service-tracing" options="-parameters" />
+      <module name="products-service2" options="-parameters" />
+      <module name="products-service3" options="-parameters" />
+      <module name="products-service4" options="-parameters" />
+      <module name="products-service5" options="-parameters" />
+      <module name="products-service6" options="-parameters" />
+      <module name="security-csrf" options="-parameters" />
+      <module name="security-custom-creds" options="-parameters" />
+      <module name="security-default-creds" options="-parameters" />
+      <module name="security-disable-csrf" options="-parameters" />
+      <module name="security-jwt-login-dyna-jget-jwt" options="-parameters" />
+      <module name="security-jwt-login-static-resp-wo-jwtsvc" options="-parameters" />
+      <module name="security-jwt-login-staticjwt-w-jwtsvc" options="-parameters" />
+      <module name="security-jwt-login-verify-jwt" options="-parameters" />
+      <module name="security-jwt-nobasicauth" options="-parameters" />
+      <module name="security-jwt-nobasicauth-entry-logs" options="-parameters" />
+      <module name="security-kc-global-ex-handler" options="-parameters" />
+      <module name="security-principal-jwt-login-hcoded" options="-parameters" />
+      <module name="security-user-principal-bcrypt" options="-parameters" />
+      <module name="security-user-principal-dbdriven" options="-parameters" />
+      <module name="security-user-principal-hdcoded-inmem" options="-parameters" />
+      <module name="security-w-kc-failure-conn-ex" options="-parameters" />
+      <module name="security-with-jwt-disable-basic-auth" options="-parameters" />
+      <module name="security-with-keycloak" options="-parameters" />
+      <module name="security-with-keycloak-failure-resp" options="-parameters" />
+      <module name="shopping-agw-kc" options="-parameters" />
+      <module name="shopping-cb-delay-case" options="-parameters" />
+      <module name="shopping-circuit-breaker" options="-parameters" />
+      <module name="shopping-eureka-apigw" options="-parameters" />
+      <module name="shopping-eureka-multi-svc-inst" options="-parameters" />
+      <module name="shopping-eureka-svc-discovery" options="-parameters" />
+      <module name="shopping-intersvc-comm" options="-parameters" />
+      <module name="shopping-intersvc-comm2" options="-parameters" />
+      <module name="shopping-kafka-intg" options="-parameters" />
+      <module name="shopping-micrometer-tracing" options="-parameters" />
+      <module name="shopping-observability" options="-parameters" />
+      <module name="shopping-parent-child-modules" options="-parameters" />
+      <module name="shopping-spring-apigw-basic-routing" options="-parameters" />
+      <module name="spring-sec-user-principal-h2db" options="-parameters" />
+      <module name="springcloud-apigw" options="-parameters" />
+      <module name="springcloud-apigw-kc" options="-parameters" />
+      <module name="springcloud-apigw-kc-cb" options="-parameters" />
+      <module name="springcloud-gw-kc-cb-delay" options="-parameters" />
+      <module name="springcloud-mdb-products-store" options="-parameters" />
+      <module name="springcloud-mongodb-superlight" options="-parameters" />
+      <module name="springcoud-mdb-products-intg-tests" options="-parameters" />
+      <module name="springcoud-mdb-products-store" options="-parameters" />
+      <module name="springcoud-mdb-products-testcases" options="-parameters" />
+      <module name="web-mvc" options="-parameters" />
+      <module name="web-mvc1" options="-parameters" />
+      <module name="web-mvc2" options="-parameters" />
+    </option>
+  </component>
+</project>

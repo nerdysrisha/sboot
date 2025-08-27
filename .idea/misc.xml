@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lab000/pom.xml" />
+        <option value="$PROJECT_DIR$/lab001/pom.xml" />
+        <option value="$PROJECT_DIR$/lab002/pom.xml" />
+        <option value="$PROJECT_DIR$/lab003/pom.xml" />
+        <option value="$PROJECT_DIR$/lab004/pom.xml" />
+        <option value="$PROJECT_DIR$/lab005/pom.xml" />
+        <option value="$PROJECT_DIR$/lab006/pom.xml" />
+        <option value="$PROJECT_DIR$/lab007/pom.xml" />
+        <option value="$PROJECT_DIR$/lab008/pom.xml" />
+        <option value="$PROJECT_DIR$/lab009/pom.xml" />
+        <option value="$PROJECT_DIR$/lab010/pom.xml" />
+        <option value="$PROJECT_DIR$/lab011/pom.xml" />
+        <option value="$PROJECT_DIR$/lab012/pom.xml" />
+        <option value="$PROJECT_DIR$/lab013/pom.xml" />
+        <option value="$PROJECT_DIR$/lab014/pom.xml" />
+        <option value="$PROJECT_DIR$/lab015/pom.xml" />
+        <option value="$PROJECT_DIR$/lab016/pom.xml" />
+        <option value="$PROJECT_DIR$/lab017/pom.xml" />
+        <option value="$PROJECT_DIR$/lab018/pom.xml" />
+        <option value="$PROJECT_DIR$/lab019/pom.xml" />
+        <option value="$PROJECT_DIR$/lab020/pom.xml" />
+        <option value="$PROJECT_DIR$/lab021/pom.xml" />
+        <option value="$PROJECT_DIR$/lab022/pom.xml" />
+        <option value="$PROJECT_DIR$/lab023/pom.xml" />
+        <option value="$PROJECT_DIR$/lab024/pom.xml" />
+        <option value="$PROJECT_DIR$/lab025/pom.xml" />
+        <option value="$PROJECT_DIR$/lab026/pom.xml" />
+        <option value="$PROJECT_DIR$/lab027/pom.xml" />
+        <option value="$PROJECT_DIR$/lab028/pom.xml" />
+        <option value="$PROJECT_DIR$/lab029/pom.xml" />
+        <option value="$PROJECT_DIR$/lab030/pom.xml" />
+        <option value="$PROJECT_DIR$/lab031/pom.xml" />
+        <option value="$PROJECT_DIR$/lab032/pom.xml" />
+        <option value="$PROJECT_DIR$/lab033/pom.xml" />
+        <option value="$PROJECT_DIR$/lab034/pom.xml" />
+        <option value="$PROJECT_DIR$/lab035-shoping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab036-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab037-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab038-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab039-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab040-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab041-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab041-shopping/discovery-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lab042-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab043-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab044-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab045-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab046/pom.xml" />
+        <option value="$PROJECT_DIR$/lab047/pom.xml" />
+        <option value="$PROJECT_DIR$/lab048/pom.xml" />
+        <option value="$PROJECT_DIR$/lab049/pom.xml" />
+        <option value="$PROJECT_DIR$/lab050/pom.xml" />
+        <option value="$PROJECT_DIR$/lab051/pom.xml" />
+        <option value="$PROJECT_DIR$/lab045a-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab045b-shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/lab047b/pom.xml" />
+        <option value="$PROJECT_DIR$/lab052/pom.xml" />
+        <option value="$PROJECT_DIR$/lab053/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
