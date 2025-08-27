@@ -76,6 +76,7 @@
         <module name="security-jwt-nobasicauth" />
         <module name="payments-interface" />
         <module name="hworld-docker-observablity" />
+        <module name="hw-dhub-kind-secured-context" />
         <module name="jpa-image-add-retrieve" />
         <module name="security-jwt-login-verify-jwt" />
         <module name="hworlddockerhub" />
@@ -254,6 +255,7 @@
       <module name="gateway-service-tracing" options="-parameters" />
       <module name="hw-dhub-kind" options="-parameters" />
       <module name="hw-dhub-kind-secured" options="-parameters" />
+      <module name="hw-dhub-kind-secured-context" options="-parameters" />
       <module name="hworld" options="-parameters" />
       <module name="hworld-docker" options="-parameters" />
       <module name="hworld-docker-distroless" options="-parameters" />
