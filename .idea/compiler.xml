@@ -44,6 +44,7 @@
         <module name="web-mvc2" />
         <module name="web-mvc1" />
         <module name="security-default-creds" />
+        <module name="hw-dhub-kind-secured-configmaps" />
         <module name="hworld2" />
         <module name="hworld-docker-small-image" />
         <module name="jpa-insert-image-onstart" />
@@ -255,6 +256,7 @@
       <module name="gateway-service-tracing" options="-parameters" />
       <module name="hw-dhub-kind" options="-parameters" />
       <module name="hw-dhub-kind-secured" options="-parameters" />
+      <module name="hw-dhub-kind-secured-configmaps" options="-parameters" />
       <module name="hw-dhub-kind-secured-context" options="-parameters" />
       <module name="hworld" options="-parameters" />
       <module name="hworld-docker" options="-parameters" />

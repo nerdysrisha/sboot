@@ -1,0 +1,60 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hworld-config
+  namespace: integrations
+data:
+  dbhostname: "db.example.com"
+  dbport: "8080"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hworld-deployment
+  namespace: integrations
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hworld
+  template:
+    metadata:
+      labels:
+        app: hworld
+    spec:
+      containers:
+        - name: hworld
+          image: nerdysrisha/hworld056:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: hworld-config
+          securityContext:
+            runAsUser: 1000
+            runAsGroup: 1000
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+          volumeMounts:
+            - name: tmp-volume
+              mountPath: /tmp
+      volumes:
+        - name: tmp-volume
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hworld-service
+  namespace: integrations
+spec:
+  type: NodePort
+  selector:
+    app: hworld
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30080
