@@ -37,6 +37,7 @@
         <module name="security-with-keycloak" />
         <module name="jpa-cmd-runner-curl-fire-CORS" />
         <module name="jpa-search-with-jpaspecification" />
+        <module name="hw-k8-ingress-one" />
         <module name="security-jwt-nobasicauth-entry-logs" />
         <module name="hworld" />
         <module name="security-user-principal-dbdriven" />
@@ -55,6 +56,7 @@
         <module name="payments-aop-pointcut-around" />
         <module name="security-csrf" />
         <module name="di-autowire" />
+        <module name="hw-k8-ingress-two" />
         <module name="spring-sec-user-principal-h2db" />
         <module name="jpa-addl-update-apis" />
         <module name="web-mvc" />
@@ -258,6 +260,8 @@
       <module name="hw-dhub-kind-secured" options="-parameters" />
       <module name="hw-dhub-kind-secured-configmaps" options="-parameters" />
       <module name="hw-dhub-kind-secured-context" options="-parameters" />
+      <module name="hw-k8-ingress-one" options="-parameters" />
+      <module name="hw-k8-ingress-two" options="-parameters" />
       <module name="hworld" options="-parameters" />
       <module name="hworld-docker" options="-parameters" />
       <module name="hworld-docker-distroless" options="-parameters" />

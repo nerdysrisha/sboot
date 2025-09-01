@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ing1-deployment
+  namespace: integrations
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ing1
+  template:
+    metadata:
+      labels:
+        app: ing1
+    spec:
+      containers:
+        - name: ing1
+          image: nerdysrisha/ing1:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8081
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ing1-service
+  namespace: integrations
+spec:
+  type: NodePort
+  selector:
+    app: ing1
+  ports:
+    - protocol: TCP
+      port: 8081
+      targetPort: 8081
+      nodePort: 30081
