@@ -26,11 +26,10 @@ metadata:
   name: ing1-service
   namespace: integrations
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: ing1
   ports:
     - protocol: TCP
       port: 8081
       targetPort: 8081
-      nodePort: 30081
