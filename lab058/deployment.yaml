@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: ing2
+      # Annotation removed - not needed when namespace has istio-injection=enabled
     spec:
       containers:
         - name: ing2

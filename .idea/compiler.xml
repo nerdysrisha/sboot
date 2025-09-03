@@ -47,6 +47,7 @@
         <module name="security-default-creds" />
         <module name="hw-dhub-kind-secured-configmaps" />
         <module name="hworld2" />
+        <module name="hw-k8-egress-one" />
         <module name="hworld-docker-small-image" />
         <module name="jpa-insert-image-onstart" />
         <module name="security-jwt-login-static-resp-wo-jwtsvc" />
@@ -260,6 +261,7 @@
       <module name="hw-dhub-kind-secured" options="-parameters" />
       <module name="hw-dhub-kind-secured-configmaps" options="-parameters" />
       <module name="hw-dhub-kind-secured-context" options="-parameters" />
+      <module name="hw-k8-egress-one" options="-parameters" />
       <module name="hw-k8-ingress-one" options="-parameters" />
       <module name="hw-k8-ingress-two" options="-parameters" />
       <module name="hworld" options="-parameters" />
