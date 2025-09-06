@@ -20,3 +20,10 @@ kubectl port-forward svc/ing1-service -n integrations 8081:8081
 kubectl get svc ing1-service -o wide
 netstat -ano | findstr 8081
 curl http://localhost:8081/ing1
+
+
+#Note: There are two project created ingress-one and ingress-two
+#These two are created to 'test' the ingress controller and 'istio-service-mesh'
+#Ingress Controller and Istio basically do the traffic routing based on the 'path'
+#Given this need, we need to have both the spring boot application to be in running to test.
+#This comment is placed in both of the projects.

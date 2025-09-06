@@ -1,0 +1,40 @@
+
+# -----------------------------
+# Job Service Deployment + Service
+# -----------------------------
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: job-deployment
+  namespace: integrations
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: job
+  template:
+    metadata:
+      labels:
+        app: job
+    spec:
+      containers:
+        - name: job
+          image: nerdysrisha/job:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8082
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: job-service
+  namespace: integrations
+spec:
+  type: ClusterIP
+  selector:
+    app: job
+  ports:
+    - protocol: TCP
+      port: 8082
+      targetPort: 8082

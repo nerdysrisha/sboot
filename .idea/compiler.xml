@@ -35,9 +35,9 @@
         <module name="di" />
         <module name="jpa-search-with-jpql" />
         <module name="security-with-keycloak" />
+        <module name="hw-k8-egress-httpbin" />
         <module name="jpa-cmd-runner-curl-fire-CORS" />
         <module name="jpa-search-with-jpaspecification" />
-        <module name="hw-k8-ingress-one" />
         <module name="security-jwt-nobasicauth-entry-logs" />
         <module name="hworld" />
         <module name="security-user-principal-dbdriven" />
@@ -47,7 +47,6 @@
         <module name="security-default-creds" />
         <module name="hw-dhub-kind-secured-configmaps" />
         <module name="hworld2" />
-        <module name="hw-k8-egress-one" />
         <module name="hworld-docker-small-image" />
         <module name="jpa-insert-image-onstart" />
         <module name="security-jwt-login-static-resp-wo-jwtsvc" />
@@ -57,7 +56,7 @@
         <module name="payments-aop-pointcut-around" />
         <module name="security-csrf" />
         <module name="di-autowire" />
-        <module name="hw-k8-ingress-two" />
+        <module name="hw-pod2pod-cust2job-call" />
         <module name="spring-sec-user-principal-h2db" />
         <module name="jpa-addl-update-apis" />
         <module name="web-mvc" />
@@ -81,8 +80,11 @@
         <module name="payments-interface" />
         <module name="hworld-docker-observablity" />
         <module name="hw-dhub-kind-secured-context" />
+        <module name="hw-pod2pod-cust2job-listen" />
+        <module name="hw-k8-ingress-istio-prj2" />
         <module name="jpa-image-add-retrieve" />
         <module name="security-jwt-login-verify-jwt" />
+        <module name="hw-k8-ingress-istio-prj1" />
         <module name="hworlddockerhub" />
       </profile>
       <profile name="Annotation profile for Archetype - lab045a-shopping" enabled="true">
@@ -261,9 +263,11 @@
       <module name="hw-dhub-kind-secured" options="-parameters" />
       <module name="hw-dhub-kind-secured-configmaps" options="-parameters" />
       <module name="hw-dhub-kind-secured-context" options="-parameters" />
-      <module name="hw-k8-egress-one" options="-parameters" />
-      <module name="hw-k8-ingress-one" options="-parameters" />
-      <module name="hw-k8-ingress-two" options="-parameters" />
+      <module name="hw-k8-egress-httpbin" options="-parameters" />
+      <module name="hw-k8-ingress-istio-prj1" options="-parameters" />
+      <module name="hw-k8-ingress-istio-prj2" options="-parameters" />
+      <module name="hw-pod2pod-cust2job-call" options="-parameters" />
+      <module name="hw-pod2pod-cust2job-listen" options="-parameters" />
       <module name="hworld" options="-parameters" />
       <module name="hworld-docker" options="-parameters" />
       <module name="hworld-docker-distroless" options="-parameters" />
