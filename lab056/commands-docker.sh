@@ -2,38 +2,25 @@
 
 ##SPRING BOOT HELLO WORLD - DOCKER - AKS START
 
-
-#Navigate to pom.xml directory. Eg. as below.
-
 		cd C:\ws\sboot\lab056
 
 
-#build the project
 
 			mvn clean package
 
-#Run the jar locally and test
 
      java -jar .\target\hworld-0.0.1-SNAPSHOT.jar
 
-#run the curl in different termainal
 
 		curl http://localhost:8080
 
-#STOP the java app before proceeding to next step
-
-#Check Docker is running or not
-
 		docker ps > $null 2>&1; if ($?) { "Docker is running" } else { "Docker is not running" }
 
-#Build, run, list the docker image. here as an example, added the project number
 
 		docker build -t hworld056:latest .
 
 
 
-
-#Check if image is created and hosted on docker local
 
 		docker images
 
@@ -58,27 +45,14 @@
 			docker container list
 
 
-
-
-
-#Run the curl
 		 curl http://localhost:8080
 
-
-
-
-
-#Docker Tag the image and push
 
 
 docker tag hworld056:latest nerdysrisha/hworld056:latest
 docker push nerdysrisha/hworld056:latest
 
-
-
-
-
-#Check current namespace
+#Check / Know current namespace   or To view the current namespace execute below command, so that wrongly we do not put our deployments.
 
   kubectl config view --minify --output 'jsonpath={..namespace}'
 
@@ -88,51 +62,24 @@ docker push nerdysrisha/hworld056:latest
 
   kubectl delete -f deployment.yaml
 
-  #gets deleted if objects exists
 
-#Create namespace 'integrations', if it is not available.
-
-    PS C:\ws\sboot\lab056> kubectl create namespace integrations
-    namespace/integrations created
-    PS C:\ws\sboot\lab056>
-
+  kubectl create namespace integrations
 
 
 #Get all and view if any are there after switching to Integrations namespaces(as an example)
 
-    PS C:\ws\sboot\lab056> kubectl config set-context --current --namespace=integrations
-    Context "docker-desktop" modified.
-    PS C:\ws\sboot\lab056>
+  kubectl config set-context --current --namespace=integrations
+
+
+
+     kubectl get all
 
 
 
 
-    PS C:\ws\sboot\lab056> kubectl get all
-    No resources found in integrations namespace.
-    PS C:\ws\sboot\lab056>
-
-
-
-
-
-
-#Check the deployment configuration
-
-    type deployment.yaml
-
-      PS C:\ws\sboot\lab056> type deployment.yaml
-
-
-
-#Deploy the project to local kubernetes.
 
   kubectl apply -f deployment.yaml
 
-    PS C:\ws\sboot\lab056>   kubectl apply -f deployment.yaml
-    configmap/hworld-config created
-    deployment.apps/hworld-deployment created
-    service/hworld-service created
-    PS C:\ws\sboot\lab056>
 
 
 
@@ -191,7 +138,7 @@ kubectl port-forward svc/hworld-service -n integrations 8080:8080
 
 
 
-#Open a new termainal and run the curl
+#Open a new terminal and run the curl
 
   curl http://localhost:8080
 

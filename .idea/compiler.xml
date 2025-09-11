@@ -39,11 +39,14 @@
         <module name="jpa-cmd-runner-curl-fire-CORS" />
         <module name="jpa-search-with-jpaspecification" />
         <module name="security-jwt-nobasicauth-entry-logs" />
+        <module name="analytics" />
         <module name="hworld" />
         <module name="security-user-principal-dbdriven" />
         <module name="security-principal-jwt-login-hcoded" />
         <module name="web-mvc2" />
         <module name="web-mvc1" />
+        <module name="hw-dhub-kind-readiness-liveliness" />
+        <module name="analytics-dub-kind-tainting" />
         <module name="security-default-creds" />
         <module name="hw-dhub-kind-secured-configmaps" />
         <module name="hworld2" />
@@ -58,6 +61,7 @@
         <module name="di-autowire" />
         <module name="hw-pod2pod-cust2job-call" />
         <module name="spring-sec-user-principal-h2db" />
+        <module name="hw-dub-kind-resource-limits" />
         <module name="jpa-addl-update-apis" />
         <module name="web-mvc" />
         <module name="jpa-transaction-read-uncommitted" />
@@ -68,6 +72,7 @@
         <module name="hworld-docker" />
         <module name="di2" />
         <module name="di1" />
+        <module name="hw-dhub-kind-secrets" />
         <module name="security-user-principal-bcrypt" />
         <module name="hw-dhub-kind-secured" />
         <module name="security-with-jwt-disable-basic-auth" />
@@ -240,6 +245,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="analytics" options="-parameters" />
+      <module name="analytics-dub-kind-tainting" options="-parameters" />
       <module name="di" options="-parameters" />
       <module name="di-autowire" options="-parameters" />
       <module name="di1" options="-parameters" />
@@ -260,9 +267,12 @@
       <module name="gateway-service-observability" options="-parameters" />
       <module name="gateway-service-tracing" options="-parameters" />
       <module name="hw-dhub-kind" options="-parameters" />
+      <module name="hw-dhub-kind-readiness-liveliness" options="-parameters" />
+      <module name="hw-dhub-kind-secrets" options="-parameters" />
       <module name="hw-dhub-kind-secured" options="-parameters" />
       <module name="hw-dhub-kind-secured-configmaps" options="-parameters" />
       <module name="hw-dhub-kind-secured-context" options="-parameters" />
+      <module name="hw-dub-kind-resource-limits" options="-parameters" />
       <module name="hw-k8-egress-httpbin" options="-parameters" />
       <module name="hw-k8-ingress-istio-prj1" options="-parameters" />
       <module name="hw-k8-ingress-istio-prj2" options="-parameters" />
