@@ -1,3 +1,44 @@
+##############SIMPLIFIED INFORMATION ###############
+#THIS IS MOST BASIC DOCKER-DOCKERHUB-KIND IMPLEMENTATION
+
+
+cd C:\ws\sboot\lab053
+mvn clean package
+docker build -t hworld:latest .
+docker tag hworld:latest nerdysrisha/hworld:latest
+docker push nerdysrisha/hworld:latest
+kubectl delete -f deployment.yaml
+kubectl config set-context --current --namespace=integrations
+kubectl apply -f deployment.yaml
+kubectl wait --for=condition=Ready pod -l app=hworld -n integrations --timeout=300s
+kubectl port-forward svc/hworld-service -n integrations 8080:8080
+#In different termainl 
+curl http://localhost:8080
+
+
+
+
+
+
+cd C:\ws\sboot\lab053
+mvn clean package
+java -jar .\target\hworld-docker-0.0.1-SNAPSHOT.jar
+curl http://localhost:8080
+docker build -t hworld:latest .
+docker run -p 8080:8080 hworld:latest
+curl http://localhost:8080
+docker tag hworld:latest nerdysrisha/hworld:latest
+docker push nerdysrisha/hworld:latest
+kubectl delete -f deployment.yaml
+kubectl config set-context --current --namespace=integrations
+kubectl apply -f deployment.yaml
+kubectl wait --for=condition=Ready pod -l app=hworld -n integrations --timeout=300s
+kubectl port-forward svc/hworld-service -n integrations 8080:8080
+curl http://localhost:8080
+
+
+###############DETAILED INFORMATION ################
+
 
 
 ##SPRING BOOT HELLO WORLD - DOCKER - AKS START

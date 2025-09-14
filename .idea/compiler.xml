@@ -39,7 +39,6 @@
         <module name="jpa-cmd-runner-curl-fire-CORS" />
         <module name="jpa-search-with-jpaspecification" />
         <module name="security-jwt-nobasicauth-entry-logs" />
-        <module name="analytics" />
         <module name="hworld" />
         <module name="security-user-principal-dbdriven" />
         <module name="security-principal-jwt-login-hcoded" />
@@ -75,6 +74,7 @@
         <module name="hw-dhub-kind-secrets" />
         <module name="security-user-principal-bcrypt" />
         <module name="hw-dhub-kind-secured" />
+        <module name="analytics-hpa" />
         <module name="security-with-jwt-disable-basic-auth" />
         <module name="payments-interface-aop-pointcut" />
         <module name="security-w-kc-failure-conn-ex" />
@@ -84,6 +84,7 @@
         <module name="security-jwt-nobasicauth" />
         <module name="payments-interface" />
         <module name="hworld-docker-observablity" />
+        <module name="hw-dhub-kind-small-img" />
         <module name="hw-dhub-kind-secured-context" />
         <module name="hw-pod2pod-cust2job-listen" />
         <module name="hw-k8-ingress-istio-prj2" />
@@ -245,8 +246,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="analytics" options="-parameters" />
       <module name="analytics-dub-kind-tainting" options="-parameters" />
+      <module name="analytics-hpa" options="-parameters" />
       <module name="di" options="-parameters" />
       <module name="di-autowire" options="-parameters" />
       <module name="di1" options="-parameters" />
@@ -272,6 +273,7 @@
       <module name="hw-dhub-kind-secured" options="-parameters" />
       <module name="hw-dhub-kind-secured-configmaps" options="-parameters" />
       <module name="hw-dhub-kind-secured-context" options="-parameters" />
+      <module name="hw-dhub-kind-small-img" options="-parameters" />
       <module name="hw-dub-kind-resource-limits" options="-parameters" />
       <module name="hw-k8-egress-httpbin" options="-parameters" />
       <module name="hw-k8-ingress-istio-prj1" options="-parameters" />
