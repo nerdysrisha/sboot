@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hworld-deployment
+  name: payments53b-deployment
   namespace: integrations
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hworld
+      app: payments53b
   template:
     metadata:
       labels:
-        app: hworld
+        app: payments53b
     spec:
       containers:
-        - name: hworld
-          image: nerdysrisha/hworld53a:latest
+        - name: payments53b
+          image: nerdysrisha/payments53b:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
@@ -23,12 +23,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: hworld-service
+  name: payments53b-service
   namespace: integrations
 spec:
   type: NodePort
   selector:
-    app: hworld
+    app: payments53b
   ports:
     - protocol: TCP
       port: 8080

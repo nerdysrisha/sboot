@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.nerdylabs</groupId>
-	<artifactId>PaymentsHandler</artifactId>
+	<artifactId>payments</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lab053b</name>
 	<description>Payment API</description>

@@ -8,10 +8,10 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bring</groupId>
+	<groupId>com.nerdy</groupId>
 	<artifactId>hworld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lab053</name>
+	<name>lab053a</name>
 	<description>Hello World on Docker and KIND</description>
 	<url/>
 	<licenses>

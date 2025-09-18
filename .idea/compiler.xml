@@ -86,6 +86,7 @@
         <module name="hworld-docker-observablity" />
         <module name="hw-dhub-kind-small-img" />
         <module name="hw-dhub-kind-secured-context" />
+        <module name="payments-memory-dump" />
         <module name="hw-pod2pod-cust2job-listen" />
         <module name="hw-k8-ingress-istio-prj2" />
         <module name="jpa-image-add-retrieve" />
@@ -340,6 +341,7 @@
       <module name="payments-interface" options="-parameters" />
       <module name="payments-interface-aop" options="-parameters" />
       <module name="payments-interface-aop-pointcut" options="-parameters" />
+      <module name="payments-memory-dump" options="-parameters" />
       <module name="products-service" options="-parameters" />
       <module name="products-service (1)" options="-parameters" />
       <module name="products-service (2)" options="-parameters" />
