@@ -8,14 +8,14 @@ public class Lab000 {
     /*
     cd c:\ws\sboot\lab000
     mvn clean package
-    curl http://localhost:8081/greetings
+    curl http://localhost:8080/greetings
      */
 
     @RequestMapping("/greetings")
     public String greetTheWorld(){
 
-        System.out.println("Sending greetings");
+        System.out.println("Sending greetings with Secret Message");
 
-        return "Hello World";
+        return "Hello World - Secret Message";
     }
 }

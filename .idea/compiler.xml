@@ -67,6 +67,7 @@
         <module name="security-custom-creds" />
         <module name="security-jwt-login-staticjwt-w-jwtsvc" />
         <module name="security-kc-global-ex-handler" />
+        <module name="payments" />
         <module name="interceptor" />
         <module name="hworld-docker" />
         <module name="di2" />
@@ -79,6 +80,7 @@
         <module name="payments-interface-aop-pointcut" />
         <module name="security-w-kc-failure-conn-ex" />
         <module name="security-user-principal-hdcoded-inmem" />
+        <module name="hworld (1)" />
         <module name="security-jwt-login-dyna-jget-jwt" />
         <module name="jpa-insert-data-onstart" />
         <module name="security-jwt-nobasicauth" />
@@ -247,9 +249,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="analytics" options="-parameters" />
       <module name="analytics-dub-kind-tainting" options="-parameters" />
       <module name="analytics-hpa" options="-parameters" />
       <module name="di" options="-parameters" />
+      <module name="di (1)" options="-parameters" />
+      <module name="di (2)" options="-parameters" />
       <module name="di-autowire" options="-parameters" />
       <module name="di1" options="-parameters" />
       <module name="di2" options="-parameters" />
@@ -268,6 +273,7 @@
       <module name="gateway-service-kafka" options="-parameters" />
       <module name="gateway-service-observability" options="-parameters" />
       <module name="gateway-service-tracing" options="-parameters" />
+      <module name="hpaenabledhw" options="-parameters" />
       <module name="hw-dhub-kind" options="-parameters" />
       <module name="hw-dhub-kind-readiness-liveliness" options="-parameters" />
       <module name="hw-dhub-kind-secrets" options="-parameters" />
@@ -282,6 +288,21 @@
       <module name="hw-pod2pod-cust2job-call" options="-parameters" />
       <module name="hw-pod2pod-cust2job-listen" options="-parameters" />
       <module name="hworld" options="-parameters" />
+      <module name="hworld (1)" options="-parameters" />
+      <module name="hworld (10)" options="-parameters" />
+      <module name="hworld (11)" options="-parameters" />
+      <module name="hworld (12)" options="-parameters" />
+      <module name="hworld (13)" options="-parameters" />
+      <module name="hworld (14)" options="-parameters" />
+      <module name="hworld (15)" options="-parameters" />
+      <module name="hworld (2)" options="-parameters" />
+      <module name="hworld (3)" options="-parameters" />
+      <module name="hworld (4)" options="-parameters" />
+      <module name="hworld (5)" options="-parameters" />
+      <module name="hworld (6)" options="-parameters" />
+      <module name="hworld (7)" options="-parameters" />
+      <module name="hworld (8)" options="-parameters" />
+      <module name="hworld (9)" options="-parameters" />
       <module name="hworld-docker" options="-parameters" />
       <module name="hworld-docker-distroless" options="-parameters" />
       <module name="hworld-docker-observablity" options="-parameters" />
@@ -337,6 +358,7 @@
       <module name="order-service4" options="-parameters" />
       <module name="order-service5" options="-parameters" />
       <module name="order-service6" options="-parameters" />
+      <module name="payments" options="-parameters" />
       <module name="payments-aop-pointcut-around" options="-parameters" />
       <module name="payments-interface" options="-parameters" />
       <module name="payments-interface-aop" options="-parameters" />
@@ -403,6 +425,8 @@
       <module name="springcoud-mdb-products-store" options="-parameters" />
       <module name="springcoud-mdb-products-testcases" options="-parameters" />
       <module name="web-mvc" options="-parameters" />
+      <module name="web-mvc (1)" options="-parameters" />
+      <module name="web-mvc (2)" options="-parameters" />
       <module name="web-mvc1" options="-parameters" />
       <module name="web-mvc2" options="-parameters" />
     </option>
